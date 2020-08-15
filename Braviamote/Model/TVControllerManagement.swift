@@ -28,7 +28,6 @@ class TVControllerManagement: ObservableObject {
     
     
     func validateIp() -> Bool {
-        print("validate ip \(UserDefaults.standard.string(forKey: "ipAddress") ?? "" )")
         return UserDefaults.standard.string(forKey: "ipAddress") ?? ""  != ""
     }
     
@@ -41,7 +40,6 @@ class TVControllerManagement: ObservableObject {
     
     func sendCommand(name: String) {
         if validateIp(), let commandCode = commands[name] {
-            print(name)
             // Prepare URL
             let url = URL(string: "http://\(UserDefaults.standard.string(forKey: "ipAddress") ?? "")/sony/IRCC")
             guard let requestUrl = url else { fatalError() }

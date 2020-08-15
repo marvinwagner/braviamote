@@ -13,7 +13,6 @@ struct Sony: TVModel {
     
     func checkDevice(ip: String, perform: @escaping (String)->Void) {
         let url = "http://\(ip)/sony/system"
-        print(url)
         let requestUrl = URL(string: url)!
 
         var request = URLRequest(url: requestUrl)

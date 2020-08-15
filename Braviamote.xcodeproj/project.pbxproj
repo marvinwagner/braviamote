@@ -17,7 +17,6 @@
 		E230C88124A54BA700CB439C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88024A54BA700CB439C /* Device.swift */; };
 		E230C88424A55A0000CB439C /* SystemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88324A55A0000CB439C /* SystemResponse.swift */; };
 		E230C88624A779B700CB439C /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88524A779B700CB439C /* Unwrap.swift */; };
-		E230C88824A8DFB200CB439C /* DeviceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88724A8DFB200CB439C /* DeviceAlert.swift */; };
 		E25CC57D249A8FB800CA5FFA /* ToggleRoundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */; };
 		E2757C6524A4D13500322F21 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2757C6424A4D13500322F21 /* NetworkView.swift */; };
 		E2757C6924A4DB4800322F21 /* NetworkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2757C6824A4DB4800322F21 /* NetworkPresenter.swift */; };
@@ -46,7 +45,6 @@
 		E230C88024A54BA700CB439C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		E230C88324A55A0000CB439C /* SystemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemResponse.swift; sourceTree = "<group>"; };
 		E230C88524A779B700CB439C /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
-		E230C88724A8DFB200CB439C /* DeviceAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAlert.swift; sourceTree = "<group>"; };
 		E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRoundStyle.swift; sourceTree = "<group>"; };
 		E2757C6424A4D13500322F21 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		E2757C6724A4D8DE00322F21 /* Braviamote-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Braviamote-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -151,7 +149,6 @@
 				E2307CC2249A5988000AD8F1 /* RectButtonStyle.swift */,
 				E2307CC4249A6A58000AD8F1 /* IconButtonStyle.swift */,
 				E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */,
-				E230C88724A8DFB200CB439C /* DeviceAlert.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -319,7 +316,6 @@
 				E2C3B797249955F6000C13B4 /* Awake.swift in Sources */,
 				E2C0385324996BF900144394 /* Extensions.swift in Sources */,
 				E2281865249AF46800B1F229 /* PowerStatusResponse.swift in Sources */,
-				E230C88824A8DFB200CB439C /* DeviceAlert.swift in Sources */,
 				E2C3B78124993AF4000C13B4 /* AppDelegate.swift in Sources */,
 				E2307CC3249A5988000AD8F1 /* RectButtonStyle.swift in Sources */,
 				E230C88124A54BA700CB439C /* Device.swift in Sources */,
