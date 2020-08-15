@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.2.1)
+  - MMLanScan (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.2)
+  - MMLanScan
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MMLanScan
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  MMLanScan: 86a0f77edbf163be30c1f58321469c7c8ce4c50e
+
+PODFILE CHECKSUM: 0eae03c4d9f821321a9861e8eeaad253bedccf1b
+
+COCOAPODS: 1.9.1

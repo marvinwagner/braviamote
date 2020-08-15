@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA402533415A5EF2B8BFDE88 /* Pods_Braviamote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D647A7873FF63CD45D75E9 /* Pods_Braviamote.framework */; };
+		E2281865249AF46800B1F229 /* PowerStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2281864249AF46800B1F229 /* PowerStatusResponse.swift */; };
+		E2281867249BAEEF00B1F229 /* VolumeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2281866249BAEEF00B1F229 /* VolumeResponse.swift */; };
+		E22818AD249E575C00B1F229 /* Braviamote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E22818AB249E575C00B1F229 /* Braviamote.xcdatamodeld */; };
+		E2307CC3249A5988000AD8F1 /* RectButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2307CC2249A5988000AD8F1 /* RectButtonStyle.swift */; };
+		E2307CC5249A6A58000AD8F1 /* IconButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2307CC4249A6A58000AD8F1 /* IconButtonStyle.swift */; };
+		E230C87F24A542B800CB439C /* Sony.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C87E24A542B800CB439C /* Sony.swift */; };
+		E230C88124A54BA700CB439C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88024A54BA700CB439C /* Device.swift */; };
+		E230C88424A55A0000CB439C /* SystemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88324A55A0000CB439C /* SystemResponse.swift */; };
+		E230C88624A779B700CB439C /* Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88524A779B700CB439C /* Unwrap.swift */; };
+		E230C88824A8DFB200CB439C /* DeviceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230C88724A8DFB200CB439C /* DeviceAlert.swift */; };
+		E25CC57D249A8FB800CA5FFA /* ToggleRoundStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */; };
+		E2757C6524A4D13500322F21 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2757C6424A4D13500322F21 /* NetworkView.swift */; };
+		E2757C6924A4DB4800322F21 /* NetworkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2757C6824A4DB4800322F21 /* NetworkPresenter.swift */; };
+		E2C0385324996BF900144394 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0385224996BF900144394 /* Extensions.swift */; };
+		E2C0385724996D9E00144394 /* RoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C0385624996D9E00144394 /* RoundedButtonStyle.swift */; };
+		E2C3B78124993AF4000C13B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B78024993AF4000C13B4 /* AppDelegate.swift */; };
+		E2C3B78324993AF4000C13B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B78224993AF4000C13B4 /* SceneDelegate.swift */; };
+		E2C3B78524993AF4000C13B4 /* TVControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B78424993AF4000C13B4 /* TVControllerView.swift */; };
+		E2C3B78724993AF6000C13B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C3B78624993AF6000C13B4 /* Assets.xcassets */; };
+		E2C3B78A24993AF6000C13B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C3B78924993AF6000C13B4 /* Preview Assets.xcassets */; };
+		E2C3B78D24993AF6000C13B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C3B78B24993AF6000C13B4 /* LaunchScreen.storyboard */; };
+		E2C3B79524993C03000C13B4 /* TVControllerManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B79424993C03000C13B4 /* TVControllerManagement.swift */; };
+		E2C3B797249955F6000C13B4 /* Awake.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3B796249955F6000C13B4 /* Awake.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34D647A7873FF63CD45D75E9 /* Pods_Braviamote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Braviamote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA5A76B69E2C3479938D186 /* Pods-Braviamote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Braviamote.debug.xcconfig"; path = "Target Support Files/Pods-Braviamote/Pods-Braviamote.debug.xcconfig"; sourceTree = "<group>"; };
+		927CBF8B14BD21CD6A6D13E7 /* Pods-Braviamote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Braviamote.release.xcconfig"; path = "Target Support Files/Pods-Braviamote/Pods-Braviamote.release.xcconfig"; sourceTree = "<group>"; };
+		E2281864249AF46800B1F229 /* PowerStatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerStatusResponse.swift; sourceTree = "<group>"; };
+		E2281866249BAEEF00B1F229 /* VolumeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeResponse.swift; sourceTree = "<group>"; };
+		E22818AC249E575C00B1F229 /* Braviamote.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Braviamote.xcdatamodel; sourceTree = "<group>"; };
+		E2307CC2249A5988000AD8F1 /* RectButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectButtonStyle.swift; sourceTree = "<group>"; };
+		E2307CC4249A6A58000AD8F1 /* IconButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButtonStyle.swift; sourceTree = "<group>"; };
+		E230C87E24A542B800CB439C /* Sony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sony.swift; sourceTree = "<group>"; };
+		E230C88024A54BA700CB439C /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		E230C88324A55A0000CB439C /* SystemResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemResponse.swift; sourceTree = "<group>"; };
+		E230C88524A779B700CB439C /* Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unwrap.swift; sourceTree = "<group>"; };
+		E230C88724A8DFB200CB439C /* DeviceAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceAlert.swift; sourceTree = "<group>"; };
+		E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleRoundStyle.swift; sourceTree = "<group>"; };
+		E2757C6424A4D13500322F21 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		E2757C6724A4D8DE00322F21 /* Braviamote-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Braviamote-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2757C6824A4DB4800322F21 /* NetworkPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPresenter.swift; sourceTree = "<group>"; };
+		E2C0385224996BF900144394 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E2C0385624996D9E00144394 /* RoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButtonStyle.swift; sourceTree = "<group>"; };
+		E2C3B77D24993AF4000C13B4 /* Braviamote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Braviamote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C3B78024993AF4000C13B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C3B78224993AF4000C13B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E2C3B78424993AF4000C13B4 /* TVControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVControllerView.swift; sourceTree = "<group>"; };
+		E2C3B78624993AF6000C13B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C3B78924993AF6000C13B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2C3B78C24993AF6000C13B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C3B78E24993AF6000C13B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C3B79424993C03000C13B4 /* TVControllerManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVControllerManagement.swift; sourceTree = "<group>"; };
+		E2C3B796249955F6000C13B4 /* Awake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awake.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C3B77A24993AF4000C13B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA402533415A5EF2B8BFDE88 /* Pods_Braviamote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A04D798090A3F6CAF949079 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CA5A76B69E2C3479938D186 /* Pods-Braviamote.debug.xcconfig */,
+				927CBF8B14BD21CD6A6D13E7 /* Pods-Braviamote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADB399503F55100D22828CA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D647A7873FF63CD45D75E9 /* Pods_Braviamote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2307CC124997697000AD8F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3B79424993C03000C13B4 /* TVControllerManagement.swift */,
+				E2757C6824A4DB4800322F21 /* NetworkPresenter.swift */,
+				E230C88224A559C000CB439C /* Sony */,
+				E230C88024A54BA700CB439C /* Device.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E230C88224A559C000CB439C /* Sony */ = {
+			isa = PBXGroup;
+			children = (
+				E230C87E24A542B800CB439C /* Sony.swift */,
+				E2281864249AF46800B1F229 /* PowerStatusResponse.swift */,
+				E2281866249BAEEF00B1F229 /* VolumeResponse.swift */,
+				E230C88324A55A0000CB439C /* SystemResponse.swift */,
+			);
+			path = Sony;
+			sourceTree = "<group>";
+		};
+		E2757C6A24A4DD2000322F21 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E22818AB249E575C00B1F229 /* Braviamote.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E2C0385124996BD700144394 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3B796249955F6000C13B4 /* Awake.swift */,
+				E2C0385224996BF900144394 /* Extensions.swift */,
+				E230C88524A779B700CB439C /* Unwrap.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E2C0385424996D6700144394 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2C0385524996D7C00144394 /* Components */,
+				E2C3B78424993AF4000C13B4 /* TVControllerView.swift */,
+				E2757C6424A4D13500322F21 /* NetworkView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2C0385524996D7C00144394 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E2C0385624996D9E00144394 /* RoundedButtonStyle.swift */,
+				E2307CC2249A5988000AD8F1 /* RectButtonStyle.swift */,
+				E2307CC4249A6A58000AD8F1 /* IconButtonStyle.swift */,
+				E25CC57C249A8FB800CA5FFA /* ToggleRoundStyle.swift */,
+				E230C88724A8DFB200CB439C /* DeviceAlert.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2C3B77424993AF4000C13B4 = {
+			isa = PBXGroup;
+			children = (
+				E2C3B77F24993AF4000C13B4 /* Braviamote */,
+				E2C3B77E24993AF4000C13B4 /* Products */,
+				2A04D798090A3F6CAF949079 /* Pods */,
+				ADB399503F55100D22828CA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C3B77E24993AF4000C13B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3B77D24993AF4000C13B4 /* Braviamote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C3B77F24993AF4000C13B4 /* Braviamote */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3B78024993AF4000C13B4 /* AppDelegate.swift */,
+				E2C3B78224993AF4000C13B4 /* SceneDelegate.swift */,
+				E2C0385424996D6700144394 /* View */,
+				E2307CC124997697000AD8F1 /* Model */,
+				E2C3B78624993AF6000C13B4 /* Assets.xcassets */,
+				E2C3B78B24993AF6000C13B4 /* LaunchScreen.storyboard */,
+				E2C3B78E24993AF6000C13B4 /* Info.plist */,
+				E2C3B78824993AF6000C13B4 /* Preview Content */,
+				E2C0385124996BD700144394 /* Utils */,
+				E2757C6A24A4DD2000322F21 /* CoreData */,
+				E2757C6724A4D8DE00322F21 /* Braviamote-Bridging-Header.h */,
+			);
+			path = Braviamote;
+			sourceTree = "<group>";
+		};
+		E2C3B78824993AF6000C13B4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2C3B78924993AF6000C13B4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C3B77C24993AF4000C13B4 /* Braviamote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C3B79124993AF6000C13B4 /* Build configuration list for PBXNativeTarget "Braviamote" */;
+			buildPhases = (
+				F0C658D1E3FF538A5F35BB26 /* [CP] Check Pods Manifest.lock */,
+				E2C3B77924993AF4000C13B4 /* Sources */,
+				E2C3B77A24993AF4000C13B4 /* Frameworks */,
+				E2C3B77B24993AF4000C13B4 /* Resources */,
+				5FFC67CD95FBFC42C486CF77 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Braviamote;
+			productName = Braviamote;
+			productReference = E2C3B77D24993AF4000C13B4 /* Braviamote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C3B77524993AF4000C13B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Marvin Wagner";
+				TargetAttributes = {
+					E2C3B77C24993AF4000C13B4 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = E2C3B77824993AF4000C13B4 /* Build configuration list for PBXProject "Braviamote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C3B77424993AF4000C13B4;
+			productRefGroup = E2C3B77E24993AF4000C13B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C3B77C24993AF4000C13B4 /* Braviamote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C3B77B24993AF4000C13B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C3B78D24993AF6000C13B4 /* LaunchScreen.storyboard in Resources */,
+				E2C3B78A24993AF6000C13B4 /* Preview Assets.xcassets in Resources */,
+				E2C3B78724993AF6000C13B4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FFC67CD95FBFC42C486CF77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Braviamote/Pods-Braviamote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Braviamote/Pods-Braviamote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Braviamote/Pods-Braviamote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C658D1E3FF538A5F35BB26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Braviamote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C3B77924993AF4000C13B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E230C88624A779B700CB439C /* Unwrap.swift in Sources */,
+				E2C3B797249955F6000C13B4 /* Awake.swift in Sources */,
+				E2C0385324996BF900144394 /* Extensions.swift in Sources */,
+				E2281865249AF46800B1F229 /* PowerStatusResponse.swift in Sources */,
+				E230C88824A8DFB200CB439C /* DeviceAlert.swift in Sources */,
+				E2C3B78124993AF4000C13B4 /* AppDelegate.swift in Sources */,
+				E2307CC3249A5988000AD8F1 /* RectButtonStyle.swift in Sources */,
+				E230C88124A54BA700CB439C /* Device.swift in Sources */,
+				E25CC57D249A8FB800CA5FFA /* ToggleRoundStyle.swift in Sources */,
+				E2C3B78324993AF4000C13B4 /* SceneDelegate.swift in Sources */,
+				E2C3B79524993C03000C13B4 /* TVControllerManagement.swift in Sources */,
+				E230C87F24A542B800CB439C /* Sony.swift in Sources */,
+				E2C3B78524993AF4000C13B4 /* TVControllerView.swift in Sources */,
+				E2757C6524A4D13500322F21 /* NetworkView.swift in Sources */,
+				E22818AD249E575C00B1F229 /* Braviamote.xcdatamodeld in Sources */,
+				E2C0385724996D9E00144394 /* RoundedButtonStyle.swift in Sources */,
+				E2281867249BAEEF00B1F229 /* VolumeResponse.swift in Sources */,
+				E2757C6924A4DB4800322F21 /* NetworkPresenter.swift in Sources */,
+				E230C88424A55A0000CB439C /* SystemResponse.swift in Sources */,
+				E2307CC5249A6A58000AD8F1 /* IconButtonStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2C3B78B24993AF6000C13B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C3B78C24993AF6000C13B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C3B78F24993AF6000C13B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2C3B79024993AF6000C13B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C3B79224993AF6000C13B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA5A76B69E2C3479938D186 /* Pods-Braviamote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Braviamote/Preview Content\"";
+				DEVELOPMENT_TEAM = H2S8CGP6ZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Braviamote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvinwagner.Braviamote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Braviamote/Braviamote-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C3B79324993AF6000C13B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 927CBF8B14BD21CD6A6D13E7 /* Pods-Braviamote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Braviamote/Preview Content\"";
+				DEVELOPMENT_TEAM = H2S8CGP6ZK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Braviamote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.marvinwagner.Braviamote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Braviamote/Braviamote-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C3B77824993AF4000C13B4 /* Build configuration list for PBXProject "Braviamote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3B78F24993AF6000C13B4 /* Debug */,
+				E2C3B79024993AF6000C13B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C3B79124993AF6000C13B4 /* Build configuration list for PBXNativeTarget "Braviamote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C3B79224993AF6000C13B4 /* Debug */,
+				E2C3B79324993AF6000C13B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E22818AB249E575C00B1F229 /* Braviamote.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E22818AC249E575C00B1F229 /* Braviamote.xcdatamodel */,
+			);
+			currentVersion = E22818AC249E575C00B1F229 /* Braviamote.xcdatamodel */;
+			path = Braviamote.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2C3B77524993AF4000C13B4 /* Project object */;
+}
